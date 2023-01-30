@@ -1,4 +1,4 @@
-var calculate = require('./calculation.js');
+const calculate = require('./calculation.js');
 
 console.log('Addition: ', calculate.add(10,2));
 console.log('Subtraction: ', calculate.subtract(10,2));
