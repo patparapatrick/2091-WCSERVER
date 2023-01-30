@@ -1,6 +1,6 @@
-function sum(x,y) {
-  return x + y;
+function add(a,b) {
+  return a + b;
 }
 
-module.exports = sum;
+module.exports = add;
 

@@ -1,4 +1,4 @@
 
-var sum = require('./add.js');
+var sum = require('./calculation.js');
 
-console.log(sum(100, 10000));
+console.log(sum(10, 2));
