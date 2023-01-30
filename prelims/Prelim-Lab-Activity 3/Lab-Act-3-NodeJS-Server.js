@@ -33,3 +33,4 @@ var server = http.createServer(function (req, res){
 
 server.listen(5000);
 console.log('Node.js webserver at port 5000 is running..')
+module.exports = Lab-Act-3-NodeJS-Server;
