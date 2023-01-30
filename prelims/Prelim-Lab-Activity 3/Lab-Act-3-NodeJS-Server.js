@@ -8,7 +8,7 @@ var server = http.createServer(function (req, res){
   if (req.url == '/'){
     res.writeHead(200, { 'Content-Type': 'text/html' });
 
-    res.write('<html><body style = "background-color: skyblue"><h1 style="color: white">Welcome to my Node.js Application</h1><br><p>Welcome " +name+ "This is an activity about basics of Node.js</p></body></html>');
+    res.write('<html><body style = "background-color: skyblue"><h1 style="color: white">Welcome to my Node.js Application</h1><br><p>Welcome Patrick Villanueva. This is an activity about basics of Node.js</p></body></html>');
     res.end();
   }
   else if (req.url == "/about"){
@@ -33,4 +33,3 @@ var server = http.createServer(function (req, res){
 
 server.listen(5000);
 console.log('Node.js webserver at port 5000 is running..')
-module.exports = Lab-Act-3-NodeJS-Server;
