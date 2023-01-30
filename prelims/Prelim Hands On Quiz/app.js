@@ -25,5 +25,5 @@ console.log('Tax: ', tax);
 console.log('SSS: ', rate);
 console.log('Pagibig: ', pagibig);
 console.log('Philhealth: ', pH);
-console.log('Total deduction: ', deduction);
-console.log('The net salary is ', grossIncome);
+console.log('Total deduction: ', deduct);
+console.log('The net salary is ', netSalary);
