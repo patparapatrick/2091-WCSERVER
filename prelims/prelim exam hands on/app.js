@@ -1,4 +1,6 @@
-var greeetings = require('./name.js');
+var prelim = require('./prelim.js');
+var prelim = new prelim('Joshua Ezekiel', ' Limiac');
 
-console.log(greetings('John'));
-console.log(greetings('Jane'));
+console.log(prelim.greetHello());
+console.log(prelim.greetCongrats());
+console.log(prelim.greetGoodbye());
